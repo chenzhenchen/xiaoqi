@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::group(['prefix' => 'home', 'namespace' => 'Home'],function (){
+    Route::get('index',['uses' => 'IndexController@index', 'as' => 'home.index.index']);
+});
