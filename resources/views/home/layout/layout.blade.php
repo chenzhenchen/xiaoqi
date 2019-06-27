@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     @section('styles')
-
+        <link rel="stylesheet" type="text/css" href="{{asset('css/home/home_page/public.css')}}?v={{time()}}">
     @show
 </head>
 <body id="ver-tc" style="min-height: 888px;">

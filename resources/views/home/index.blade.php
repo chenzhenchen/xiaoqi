@@ -1,23 +1,24 @@
 @extends('home.layout.layout')
 
 @section('styles')
-    <link rel="stylesheet" type="text/css" href="{{asset('css/home/home_page/chosen.css')}}?v={{time()}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('css/home/home_page/font-awesome.css')}}?v={{time()}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('css/home/home_page/public.css')}}?v={{time()}}">
-    <link rel="stylesheet"type="text/css" href="{{asset('css/home/home_page/slick.css')}}?v={{time()}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('css/home/home_page/screen.css')}}?v={{time()}}">
-    <style type="text/css">
-        footer{
-            position: relative!important;
-            bottom: auto;
-        }
-    </style>
+    @parent
+    {{--<link rel="stylesheet" type="text/css" href="{{asset('css/home/home_page/chosen.css')}}?v={{time()}}">--}}
+    {{--<link rel="stylesheet" type="text/css" href="{{asset('css/home/home_page/font-awesome.css')}}?v={{time()}}">--}}
+
+    {{--<link rel="stylesheet"type="text/css" href="{{asset('css/home/home_page/slick.css')}}?v={{time()}}">--}}
+    {{--<link rel="stylesheet" type="text/css" href="{{asset('css/home/home_page/screen.css')}}?v={{time()}}">--}}
+    {{--<style type="text/css">--}}
+        {{--footer{--}}
+            {{--position: relative!important;--}}
+            {{--bottom: auto;--}}
+        {{--}--}}
+    {{--</style>--}}
 @endsection
 
 @section('contents')
     <div id="banner" style="height: 888px;">
         <ul class="banner-list">
-            <li style="display: none;"><a href="http://www.sldgroup.com/sc/about_intro.php?Philosophy" class="ban-btn"></a></li>
+            <li style="display: none;"><a href="" class="ban-btn"></a></li>
             <li style="display: none;"></li>
             <li style="display: list-item;"></li>
             <li style="display: none;"></li>
