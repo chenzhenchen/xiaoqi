@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <title>小七</title>
@@ -122,26 +124,27 @@
 
                                 <!--<li class=""><a href="career.php" class="java-b">加入我们</a></li>-->
                                 <li class=""><a href="http://www.sldgroup.com/sc/contact.php" class="java-b">联系我们</a>
-                                    <!-- <div class="sub-nav sub-bot">
-                                        <dl>
-                                            <dd class=""><a href="contact_hk.php">Hong Kong Headquarter </a></dd>
-                                            <dd class=""><a href="contact_bj.php">Beijing Office</a></dd>
-                                            <dd class=""><a href="contact_sh.php">Shanghai Office</a></dd>
-                                            <dd class=""><a href="contact_gz.php">Guangzhou Office</a></dd>
-                                            <dd class=""><a href="contact_cd.php">Chengdu Office</a></dd>
-                                            <dd class=""><a href="contact_sz.php">Shenzhen Office</a></dd>
-                                        </dl>
-                                    </div> -->
+                                    {{--<div class="sub-nav sub-bot">--}}
+                                        {{--<dl>--}}
+                                            {{--<dd class=""><a href="contact_hk.php">Hong Kong Headquarter </a></dd>--}}
+                                            {{--<dd class=""><a href="contact_bj.php">Beijing Office</a></dd>--}}
+                                            {{--<dd class=""><a href="contact_sh.php">Shanghai Office</a></dd>--}}
+                                            {{--<dd class=""><a href="contact_gz.php">Guangzhou Office</a></dd>--}}
+                                            {{--<dd class=""><a href="contact_cd.php">Chengdu Office</a></dd>--}}
+                                            {{--<dd class=""><a href="contact_sz.php">Shenzhen Office</a></dd>--}}
+                                        {{--</dl>--}}
+                                    {{--</div>--}}
                                 </li>
 
-                                <li class="nav-logi-only">
-                                    <a href="http://www.steveleung.com/___Wechat.html" target="block"><!-- <img src="../images/wx.svg" /> --><i class="fa fa-weixin fa-color" aria-hidden="true"></i></a>
-                                    <a href="http://www.weibo.com/steveleung1957" target="block"><!-- <img src="../images/wb.svg" /> --><i class="fa fa-weibo fa-color" aria-hidden="true"></i></a>
-                                    <a href="http://www.facebook.com/SteveLeungDesigners" target="block"><!-- <img src="../images/face.svg" /> --><i class="fa fa-facebook fa-color" aria-hidden="true"></i></a>
-                                    <a href="http://www.linkedin.com/company/2332473?trk=tyah&amp;trkInfo=tarId:1434539756055,tas:steve%20leung%20,idx:1-1-" target="block"><!-- <img src="../images/in.svg" /> --><i class="fa fa-linkedin fa-color" aria-hidden="true"></i></a>
-                                    <a href="http://www.instagram.com/steveleungdesigners/" target="block"><!-- <img src="../images/tv.png" /> --><i class="fa fa-instagram fa-color" aria-hidden="true"></i></a>
-                                    <a href="https://www.pinterest.com/sld1957/" target="block"><!-- <img src="../images/bk.png" /> --><i class="fa fa-pinterest-p fa-color" aria-hidden="true"></i></a>
-                                </li>
+                                {{-- 分享地址 --}}
+                                {{--<li class="nav-logi-only">--}}
+                                    {{--<a href="http://www.steveleung.com/___Wechat.html" target="block"><!-- <img src="../images/wx.svg" /> --><i class="fa fa-weixin fa-color" aria-hidden="true"></i></a>--}}
+                                    {{--<a href="http://www.weibo.com/steveleung1957" target="block"><!-- <img src="../images/wb.svg" /> --><i class="fa fa-weibo fa-color" aria-hidden="true"></i></a>--}}
+                                    {{--<a href="http://www.facebook.com/SteveLeungDesigners" target="block"><!-- <img src="../images/face.svg" /> --><i class="fa fa-facebook fa-color" aria-hidden="true"></i></a>--}}
+                                    {{--<a href="http://www.linkedin.com/company/2332473?trk=tyah&amp;trkInfo=tarId:1434539756055,tas:steve%20leung%20,idx:1-1-" target="block"><!-- <img src="../images/in.svg" /> --><i class="fa fa-linkedin fa-color" aria-hidden="true"></i></a>--}}
+                                    {{--<a href="http://www.instagram.com/steveleungdesigners/" target="block"><!-- <img src="../images/tv.png" /> --><i class="fa fa-instagram fa-color" aria-hidden="true"></i></a>--}}
+                                    {{--<a href="https://www.pinterest.com/sld1957/" target="block"><!-- <img src="../images/bk.png" /> --><i class="fa fa-pinterest-p fa-color" aria-hidden="true"></i></a>--}}
+                                {{--</li>--}}
 
                             </ul>
                         </nav>
@@ -156,7 +159,24 @@
     @show
 
     @section('footer')
+        <footer class="fiexd">
+            <div class="">
+                {{--<p class="con-link">--}}
 
+                    {{--<a href="http://www.steveleung.com/___Wechat.html" target="_blank"><!-- <img src="../images/wx.svg" /> --><i class="fa fa-weixin fa-color" aria-hidden="true"></i></a>--}}
+                    {{--<a href="http://www.weibo.com/steveleung1957" target="_blank"><!-- <img src="../images/wb.svg" /> --><i class="fa fa-weibo fa-color" aria-hidden="true"></i></a>--}}
+                    {{--<a href="http://www.facebook.com/SteveLeungDesigners" target="_blank"><!-- <img src="../images/face.svg" /> --><i class="fa fa-facebook fa-color" aria-hidden="true"></i></a>--}}
+                    {{--<a href="http://www.linkedin.com/company/2332473?trk=tyah&amp;trkInfo=tarId:1434539756055,tas:steve%20leung%20,idx:1-1-" target="_blank"><!-- <img src="../images/in.svg" /> --><i class="fa fa-linkedin fa-color" aria-hidden="true"></i></a>--}}
+                    {{--<a href="http://www.instagram.com/steveleungdesigners/" target="_blank"><!-- <img src="../images/tv.png" /> --><i class="fa fa-instagram fa-color" aria-hidden="true"></i></a>--}}
+                    {{--<a href="https://www.pinterest.com/sld1957/" target="_blank"><!-- <img src="../images/bk.png" /> --><i class="fa fa-pinterest-p fa-color" aria-hidden="true"></i></a>--}}
+                {{--</p>--}}
+                <p class="copy">
+                    <span>©  <script type="text/javascript">var date = new Date();document.write(date.getFullYear());</script>2019 梁志天设计集团有限公司 版权所有</span>
+                    <span class="su">|</span>
+                    <span><a href="http://www.sldgroup.com/sc/disclaimer.php">声明及政策</a></span>
+                </p>
+            </div>
+        </footer>
     @show
 </body>
 @section('scripts')
