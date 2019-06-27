@@ -2,17 +2,17 @@
 
 @section('styles')
     @parent
-    {{--<link rel="stylesheet" type="text/css" href="{{asset('css/home/home_page/chosen.css')}}?v={{time()}}">--}}
-    {{--<link rel="stylesheet" type="text/css" href="{{asset('css/home/home_page/font-awesome.css')}}?v={{time()}}">--}}
+    <link rel="stylesheet" type="text/css" href="{{asset('css/home/home_page/chosen.css')}}?v={{time()}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('css/home/home_page/font-awesome.css')}}?v={{time()}}">
 
-    {{--<link rel="stylesheet"type="text/css" href="{{asset('css/home/home_page/slick.css')}}?v={{time()}}">--}}
-    {{--<link rel="stylesheet" type="text/css" href="{{asset('css/home/home_page/screen.css')}}?v={{time()}}">--}}
-    {{--<style type="text/css">--}}
-        {{--footer{--}}
-            {{--position: relative!important;--}}
-            {{--bottom: auto;--}}
-        {{--}--}}
-    {{--</style>--}}
+    <link rel="stylesheet"type="text/css" href="{{asset('css/home/home_page/slick.css')}}?v={{time()}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('css/home/home_page/screen.css')}}?v={{time()}}">
+    <style type="text/css">
+        footer{
+            position: relative!important;
+            bottom: auto;
+        }
+    </style>
 @endsection
 
 @section('contents')

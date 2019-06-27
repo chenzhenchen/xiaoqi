@@ -33,13 +33,13 @@
                               </form>
                         </div>-->
                     </div>
-                    <div class="d-cell">
-                        <div class="lang">
-                            <a href="http://www.sldgroup.com/en/index.php" style="font-family:Arial, Helvetica, Verdana, sans-serif;">EN</a>
-                            <a href="http://www.sldgroup.com/tc/index.php" style="font-family:Microsoft JhengHei, Microsoft YaHei, Arial, Helvetica, Verdana, sans-serif;">繁</a>
+                    {{--<div class="d-cell">--}}
+                        {{--<div class="lang">--}}
+                            {{--<a href="http://www.sldgroup.com/en/index.php" style="font-family:Arial, Helvetica, Verdana, sans-serif;">EN</a>--}}
+                            {{--<a href="http://www.sldgroup.com/tc/index.php" style="font-family:Microsoft JhengHei, Microsoft YaHei, Arial, Helvetica, Verdana, sans-serif;">繁</a>--}}
 
-                        </div>
-                    </div>
+                        {{--</div>--}}
+                    {{--</div>--}}
                 </div>
             </div>
             <div class="nav-box">
