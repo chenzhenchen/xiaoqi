@@ -11,6 +11,10 @@
     <meta name="keywords" content="">
     @section('styles')
         <link rel="stylesheet" type="text/css" href="{{asset('css/home/home_page/public.css')}}?v={{time()}}">
+        <link rel="stylesheet" type="text/css" href="{{asset('css/home/home_page/chosen.css')}}?v={{time()}}">
+        <link rel="stylesheet" type="text/css" href="{{asset('css/home/home_page/font-awesome.css')}}?v={{time()}}">
+        <link rel="stylesheet"type="text/css" href="{{asset('css/home/home_page/slick.css')}}?v={{time()}}">
+        <link rel="stylesheet" type="text/css" href="{{asset('css/home/home_page/screen.css')}}?v={{time()}}">
     @show
 </head>
 <body id="ver-tc" style="min-height: 888px;">
@@ -53,8 +57,8 @@
                                     <div class="sub-nav">
                                         <dl class="about_intro_dl">
                                             <dd class="Introduction"><a href="{{route('home.index.about')}}">公司简介</a></dd>
-                                            <dd class="Philosophy"><a href="http://www.sldgroup.com/sc/about_intro.php#Philosophy">设计理念</a></dd>
-                                            <dd class="Brands"><a href="http://www.sldgroup.com/sc/about_intro.php#Brands">品牌</a>
+                                            <dd class="Philosophy"><a href="{{route('home.index.about')}}#Philosophy">设计理念</a></dd>
+                                            <dd class="Brands"><a href="{{route('home.index.about')}}#Brands">品牌</a>
                                                 <!--<div class="sm-sub-nav">
 
                                                     <a href="about_intro.php" class="">SLA</a>
@@ -70,7 +74,7 @@
                                                     <a href="about_intro.php" class="">EDL</a>
                                                 </div>-->
                                             </dd>
-                                            <dd class=""><a href="http://www.sldgroup.com/sc/about_board.php" class="java-a">管理团队</a></dd>
+                                            <dd class=""><a href="{{route('home.index.board')}}" class="java-a">管理团队</a></dd>
                                             <dd class=""><a href="http://www.sldgroup.com/sc/about_award.php" class="java-a">荣誉及奖项</a></dd>
                                             <!--<dd class=""><a href="about_milestones.php" class="java-a">发展历程</a></dd>-->
                                             <dd class=""><a href="http://www.sldgroup.com/sc/about_csr.php" class="java-a">企业责任</a></dd>
