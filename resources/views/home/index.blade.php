@@ -75,28 +75,28 @@
 
 @section('scripts')
     @parent
-    <script type="text/javascript" src="{{asset('js/home/home_page/piwik.js')}}?v={{time()}}"></script>
+    {{--<script type="text/javascript" src="{{asset('js/home/home_page/piwik.js')}}?v={{time()}}"></script>--}}
     <script type="text/javascript" src="{{asset('js/home/home_page/easyXDM-2.4.19.3.min.js')}}?v={{time()}}"></script>
     <script type="text/javascript" src="{{asset('js/home/home_page/public.js')}}?v={{time()}}"></script>
     <script type="text/javascript" src="{{asset('js/home/home_page/slick.min.js')}}?v={{time()}}"></script>
     <script type="text/javascript" src="{{asset('js/home/home_page/chosen.jquery.js')}}?v={{time()}}"></script>
     <script type="text/javascript" src="{{asset('js/home/home_page/init.js')}}?v={{time()}}"></script>
 
-    <script>
-        function MM_jumpMenu(targ,selObj,restore){ //v3.0
-            eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
-            if (restore) selObj.selectedIndex=0;
-        }
-        var _paq = _paq || [];
-        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-        _paq.push(['trackPageView']);
-        _paq.push(['enableLinkTracking']);
-        (function() {
-            var u="//analytics.guruir.com/";
-            _paq.push(['setTrackerUrl', u+'piwik.php']);
-            _paq.push(['setSiteId', '344']);
-            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-            g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-        })();
-    </script>
+    {{--<script>--}}
+        {{--function MM_jumpMenu(targ,selObj,restore){ //v3.0--}}
+            {{--eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");--}}
+            {{--if (restore) selObj.selectedIndex=0;--}}
+        {{--}--}}
+        {{--var _paq = _paq || [];--}}
+        {{--/* tracker methods like "setCustomDimension" should be called before "trackPageView" */--}}
+        {{--_paq.push(['trackPageView']);--}}
+        {{--_paq.push(['enableLinkTracking']);--}}
+        {{--(function() {--}}
+            {{--var u="//analytics.guruir.com/";--}}
+            {{--_paq.push(['setTrackerUrl', u+'piwik.php']);--}}
+            {{--_paq.push(['setSiteId', '344']);--}}
+            {{--var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];--}}
+            {{--g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);--}}
+        {{--})();--}}
+    {{--</script>--}}
 @endsection

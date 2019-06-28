@@ -294,7 +294,7 @@ $(function(){
 
 			$(this).parent("li").addClass("cuur");
 			$(this).parent("li").siblings().removeClass("cuur");
-
+console.log(11);
 			$(this).next(".sub-nav").slideDown();
 
 			$(this).parent("li").siblings().removeClass("current");

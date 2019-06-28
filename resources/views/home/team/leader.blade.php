@@ -176,7 +176,7 @@
 
 @section('scripts')
     @parent
-    <script type="text/javascript" src="{{asset('js/home/home_page/piwik.js')}}?v={{time()}}"></script>
+    {{--<script type="text/javascript" src="{{asset('js/home/home_page/piwik.js')}}?v={{time()}}"></script>--}}
     <script type="text/javascript" src="{{asset('js/home/home_page/easyXDM-2.4.19.3.min.js')}}?v={{time()}}"></script>
     <script type="text/javascript" src="{{asset('js/home/home_page/public.js')}}?v={{time()}}"></script>
     <script type="text/javascript" src="{{asset('js/home/home_page/slick.min.js')}}?v={{time()}}"></script>
