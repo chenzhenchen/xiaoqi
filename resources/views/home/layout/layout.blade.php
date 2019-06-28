@@ -4,7 +4,9 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <title>小七</title>
+    @section('title')
+        <title>小七</title>
+    @show
     <meta name="description" content="">
     <meta name="keywords" content="">
     @section('styles')
@@ -24,7 +26,7 @@
                         </a>
                     </div>
                     <div class="d-cell">
-                        <a href="http://www.sldgroup.com/sc/index.php" class="logo"><img src=""></a>
+                        <a href="{{route('home.index.index')}}" class="logo"><img src="{{asset('images/logo.png')}}"></a>
 
                         <!--<div class="subscribe-box">
                         <form action="ir_alert.php">
@@ -47,10 +49,10 @@
                     <div class="container">
                         <nav>
                             <ul class="nav-list">
-                                <li class=""><a href="http://www.sldgroup.com/sc/about_intro.php#Introduction" class="java-a">关于我们</a>
+                                <li class=""><a href="{{route('home.index.about')}}" class="java-a">关于我们</a>
                                     <div class="sub-nav">
                                         <dl class="about_intro_dl">
-                                            <dd class="Introduction"><a href="http://www.sldgroup.com/sc/about_intro.php#Introduction">公司简介</a></dd>
+                                            <dd class="Introduction"><a href="{{route('home.index.about')}}">公司简介</a></dd>
                                             <dd class="Philosophy"><a href="http://www.sldgroup.com/sc/about_intro.php#Philosophy">设计理念</a></dd>
                                             <dd class="Brands"><a href="http://www.sldgroup.com/sc/about_intro.php#Brands">品牌</a>
                                                 <!--<div class="sm-sub-nav">

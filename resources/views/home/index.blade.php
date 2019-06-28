@@ -1,5 +1,9 @@
 @extends('home.layout.layout')
 
+@section('title')
+    <title>小七666</title>
+@endsection
+
 @section('styles')
     @parent
     <link rel="stylesheet" type="text/css" href="{{asset('css/home/home_page/chosen.css')}}?v={{time()}}">
@@ -39,8 +43,8 @@
 
             <ul class="ind-ir-media clearfix">
                 <li>
-                    <h2><a href="http://www.sldgroup.com/sc/about_intro.php">关于我们</a></h2>
-                    <p><a href="http://www.sldgroup.com/sc/about_intro.php">梁志天设计集团是屡获殊荣的国际知名室内设计服务及室内陈设服务供应商，总部设于香港...</a></p>
+                    <h2><a href="{{route('home.index.about')}}">关于我们</a></h2>
+                    <p><a href="{{route('home.index.about')}}">梁志天设计集团是屡获殊荣的国际知名室内设计服务及室内陈设服务供应商，总部设于香港...</a></p>
                     <!--<span>20.7.2017</span>-->
                 </li>
                 <li>

@@ -16,5 +16,8 @@ Route::get('/', function () {
 });
 
 Route::group(['prefix' => 'home', 'namespace' => 'Home'],function (){
+    //首页
     Route::get('index',['uses' => 'IndexController@index', 'as' => 'home.index.index']);
+    //关于我们
+    Route::get('about',['uses' => 'IndexController@about', 'as' => 'home.index.about']);
 });

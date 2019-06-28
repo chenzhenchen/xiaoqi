@@ -337,6 +337,7 @@ a#menu:hover span {
 .logo img {
   display: block;
   width: 100%;
+  height: 22px;
 }
 .subscribe-box{
   position: absolute;
