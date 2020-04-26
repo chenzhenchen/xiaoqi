@@ -9,6 +9,7 @@
     @show
     <meta name="description" content="">
     <meta name="keywords" content="">
+    <link rel="icon" href="{{asset('images/logo.ico')}}" type="image/x-icon">
     @section('styles')
         <link rel="stylesheet" type="text/css" href="{{asset('css/home/home_page/public.css')}}?v={{time()}}">
         <link rel="stylesheet" type="text/css" href="{{asset('css/home/home_page/chosen.css')}}?v={{time()}}">
@@ -31,21 +32,7 @@
                     </div>
                     <div class="d-cell">
                         <a href="{{route('home.index.index')}}" class="logo"><img src="{{asset('images/logo.png')}}"></a>
-
-                        <!--<div class="subscribe-box">
-                        <form action="ir_alert.php">
-                              <input type="text" value="Enter your email" onfocus="if (value =='Enter your email'){value =''}" onblur="if (value ==''){value='Enter your email'}" class="inputtxt" />
-                              <input type="submit" value="subscribe" class="submit">
-                              </form>
-                        </div>-->
                     </div>
-                    {{--<div class="d-cell">--}}
-                        {{--<div class="lang">--}}
-                            {{--<a href="http://www.sldgroup.com/en/index.php" style="font-family:Arial, Helvetica, Verdana, sans-serif;">EN</a>--}}
-                            {{--<a href="http://www.sldgroup.com/tc/index.php" style="font-family:Microsoft JhengHei, Microsoft YaHei, Arial, Helvetica, Verdana, sans-serif;">繁</a>--}}
-
-                        {{--</div>--}}
-                    {{--</div>--}}
                 </div>
             </div>
             <div class="nav-box">

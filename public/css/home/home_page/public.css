@@ -319,7 +319,7 @@ a#menu:hover span {
 }
 .logo img {
   display: block;
-  width: 100%;
+  width: 22px;
   height: 22px;
 }
 .subscribe-box{
@@ -540,9 +540,15 @@ background: url(../images/banner_4.jpg) no-repeat center top;
 background-size: cover;
 }
 
+ul.banner-list li:nth-of-type(5) {
+  display: none;
+  background: url(../images/banner_5.jpg) no-repeat center top;
+  background-size: cover;
+}
+
 ul.banner-list li:last-child {
 display: none;
-background: url(../images/banner_5.jpg) no-repeat center top;
+background: url(../images/banner_6.jpg) no-repeat center top;
 background-size: cover;
 }
 
