@@ -1,8 +1,5 @@
 /**
- *
- * @authors chan.yisen (aihuacyc@gmail.com)
- * @date    2016-07-25 09:25:51
- * @version $Id$
+
  */
 $(function(){
     var $url_1 = window.location.href;
@@ -294,7 +291,7 @@ $(function(){
 
 			$(this).parent("li").addClass("cuur");
 			$(this).parent("li").siblings().removeClass("cuur");
-console.log(11);
+
 			$(this).next(".sub-nav").slideDown();
 
 			$(this).parent("li").siblings().removeClass("current");

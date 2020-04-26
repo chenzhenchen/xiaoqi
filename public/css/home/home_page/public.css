@@ -3,24 +3,7 @@
  * @public.less
  */
 @charset "UTF-8";
-/*@font-face {*/
-  /*font-family: 'MyriadPro-Regular';*/
-  /*src: url('../fonts/MR.eot');*/
-  /*src: url('../fonts/MR.eot') format('embedded-opentype'), url('../fonts/MR.woff2') format('woff2'), url('../fonts/MR.woff') format('woff');*/
-/*}*/
-/*@font-face {*/
-  /*font-family: 'MyriadPro-Semibold';*/
-  /*src: url('../fonts/MSB.eot');*/
-  /*src: url('../fonts/MSB.eot') format('embedded-opentype'), url('../fonts/MSB.woff2') format('woff2'), url('../fonts/MSB.woff') format('woff');*/
-	/*font-style:normal;font-weight:600;*/
-/*}*/
-/*@font-face {*/
-  /*font-family: 'icomoon';*/
-  /*src: url('../fonts/icomoon.eot?hzhzeb');*/
-  /*src: url('../fonts/icomoon.eot?#iefixhzhzeb') format('embedded-opentype'), url('../fonts/icomoon.woff?hzhzeb') format('woff'), url('../fonts/icomoon.ttf?hzhzeb') format('truetype'), url('../fonts/icomoon.svg?hzhzeb#icomoon') format('svg');*/
-  /*font-weight: normal;*/
-  /*font-style: normal;*/
-/*}*/
+
 
 html {
   background-color: #ffffff;
